@@ -1,0 +1,78 @@
+.hero{
+    /* background-image: url('E:\Portfolio\Portfolio_website\sarmittal\src\assets\rm.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50vw;
+    background-position-x: center; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #cccccc00;
+    padding: 0px 60px;
+    height: 100vh;
+    padding-top: 40px;
+}
+.left-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;    
+    align-items: start;
+    width: 55vw;
+    gap: 10px;
+}
+.left-hero .space{
+    height: 20px;
+}
+.left-hero h1{
+    color: #e1e1e1;
+  font-family: "Urbanist", sans-serif;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: normal;
+font-size: 90px;
+
+}
+.left-hero p{
+    color: #02d866;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: normal;
+font-size: xx-large;
+
+}
+.right-hero img{
+    height: 400px;
+    /* width: 200px; */
+    border-radius: 15px;
+    border: solid #02d866 3px;
+}
+.right-hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-top: 50px;
+    align-items: center;
+}
+.left-hero .social-links{
+    justify-content: start;
+}
+.left-hero .social-links{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+    gap: 20px;
+}
+.left-hero .social-links .social-link a{
+    text-decoration: none;
+    color: #02d866;
+    
+}
+.left-hero .social-links .social-link a:hover{
+    color: #e1e1e1;
+}
+.left-hero .text{
+    color: #e1e1e1;
+
+}

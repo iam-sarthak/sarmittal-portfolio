@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    width: 100%;
+}
+
+.left-navbar a{
+    text-decoration: none;
+    
+    color: #e1e1e194;
+}
+.right-navbar{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.right-navbar a{
+    text-decoration: none;
+    font-family: "Sometype Mono", monospace;
+    color: #e1e1e1;
+}
+.button{
+    text-decoration:none;
+    background-color: transparent;
+    border: solid #02d866;
+    border-radius: 12px;
+    padding: 6px 15px;
+    color: #02d866;
+    font-family:"Sometype Mono", monospace;
+}

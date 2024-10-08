@@ -1,0 +1,56 @@
+.projectcard{
+    color: #e1e1e1cb;
+    /* border: #e1e1e1 2px solid; */
+    -webkit-box-shadow: -1px 1px 31px -22px #e1e1e1;
+-moz-box-shadow: -1px 1px 31px -22px #e1e1e1;
+box-shadow: -1px 1px 31px -22px #e1e1e1;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.projectcard img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+    
+}
+
+.projectcard p{
+    font-size: .75rem;
+    line-height: 1rem;
+}
+.links{
+    display: flex;
+    gap: 10px;
+}
+.links a{
+    padding: 5px 10px;
+    background-color: #e1e1e1;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    font-size:small
+}
+.links a:hover{
+    background-color: #02d866;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.skills .skill{
+    display: block;
+    padding: 5px;
+    background-color: #1e1e1e;;
+    border-radius: 15px;
+    text-decoration: none;
+    color:#e1e1e1;
+    font-size:x-small;
+    text-wrap: nowrap;
+}

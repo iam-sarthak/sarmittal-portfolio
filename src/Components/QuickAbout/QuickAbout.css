@@ -1,0 +1,23 @@
+.QuickAbout{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.QuickAbout-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.QuickAbout h1{
+    font-size: xx-large;
+    color: #1e1e1e;
+    width: 800px;
+}
+.QuickAbout p{
+    font-size: large;
+    color: #02d866;
+
+}

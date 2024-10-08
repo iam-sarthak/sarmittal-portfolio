@@ -1,0 +1,55 @@
+.project-image{
+    width: inherit;
+
+}
+.Projects-list{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    overflow-x: auto;
+    padding-left: 50vw;
+    padding-right: 10vw;
+    width: 98.5vw;
+    white-space: nowrap;
+}
+.Projects-list::-webkit-scrollbar {
+    display: none;
+}
+.project-card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 15px;
+}
+
+.project-content{
+
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    text-wrap: wrap;
+}
+.project-desc{
+    color: #4a4a4a;
+}
+.project-image img{
+    width: 100%;
+    height: 270px;
+    background: #02d866d4;
+    border-radius: 10px;
+    }
+.projectno{
+    font-size: 60px;
+    color: #e1e1e1;
+    font-weight: 100;
+}
+.project-title{
+    color: #e1e1e1;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 800;
+    font-size: large;
+}
+.project-techstack{
+    color: #02d866;
+}

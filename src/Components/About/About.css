@@ -1,0 +1,40 @@
+.about{
+    gap: 70px;
+}
+
+.about-select{
+    
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.about-element{
+    color: #4a4a4a;
+    padding: 15px 15px;
+    border-left: solid #4a4a4a;
+}
+.about-element:hover{
+    
+    background-color: #4a4a4a1a;
+    border-radius: 0px 12px 12px 0px;
+}
+.about-content{
+    color: #e1e1e1;
+}
+
+
+.about-active{
+    color: #02d866;
+    border-left: solid #02d866;
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+    gap: 20px;
+}
+.social-link a{
+    text-decoration: none;
+    color: #02d866;
+}

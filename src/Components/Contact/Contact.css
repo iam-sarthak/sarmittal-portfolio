@@ -1,0 +1,31 @@
+.contact{
+    width: 100%;
+}
+.contact p{
+    color: #e1e1e1;
+}
+.contact-email{
+    color: #02D866;
+    font-size: 60px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0px;
+}
+.form label{
+    color: #e1e1e1;
+}
+.form input, textarea{
+    background-color: #4a4a4a2f;
+    border: none;
+    border-radius: 12px;
+    width: 400px;
+    height: 40px;
+    padding: 20px 10px;
+    color: #e1e1e1;
+}
+.space{
+    height: 10px;
+}

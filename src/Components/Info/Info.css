@@ -1,0 +1,86 @@
+.info-selector{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #e1e1e1;
+    padding: 5px;
+    border-radius: 5px;
+}
+.info-selector button{
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+    font-weight: 500;
+    font-family: "Sometype Mono", monospace;
+}
+.info-selector .active{
+    background-color: #02d866;
+    border-radius: 5px;
+    padding: 7px;
+    box-shadow: 1px 1px 16px 1px rgba(0,0,0,0.2);
+}
+.info{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+}
+.info-data{
+    width: 100%;
+    border: #02d866 2px solid;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.InfoBlock{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    color: #e1e1e1cb;
+
+}
+.infotext {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.InfoBlock a img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;    
+}
+.infoperiod{
+    font-size: .75rem;
+}
+.infotitle{
+    font-weight: 600;
+    font-family: "Urbanist", sans-serif;
+    color: #e1e1e1;
+}
+.infoposition{
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.infotext .desc{
+    margin-left: 1rem;
+}
+.infotext .desc ul{
+    /* list-style: none; */
+}
+.infotext .desc ul li{
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.infolinks ul div a{
+    padding: 5px 10px;
+    background-color: #e1e1e1;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    font-size:small
+}
+.infolinks ul div{
+    margin-top: 5px;
+}
