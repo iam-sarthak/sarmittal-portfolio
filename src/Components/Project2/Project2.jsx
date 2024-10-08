@@ -2,6 +2,7 @@ import React from 'react'
 import './Project2.css'
 import { projects } from '../../assets/projects'
 import ProjectCard from '../ProjectCard/ProjectCard'
+import { Link } from 'react-router-dom'
 
 const Project2 = () => {
   return (
@@ -9,7 +10,8 @@ const Project2 = () => {
         <div className="feature-projects">
             <h2>Featured Projects</h2>
             <div className="viewmore">
-                <p>view more --</p>
+              <Link to="/projects">view more --</Link>
+                
             </div>
         </div>
         <div className="projects-data">

@@ -21,3 +21,8 @@
     color: #02d866;
 
 }
+@media (max-width:720px) {
+    .QuickAbout h1{
+        width: 100%;
+    }
+}

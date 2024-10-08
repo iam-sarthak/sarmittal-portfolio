@@ -23,3 +23,8 @@ margin-top: 100px;
   width: 60%;
   /* height: 100vh; */
 }
+@media(max-width:720px){
+  .new-col{
+   width: 90%;
+  }
+}

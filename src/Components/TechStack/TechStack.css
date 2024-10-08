@@ -26,3 +26,15 @@
 .tech-name{
     color: #e1e1e1;
 }
+
+
+@media(max-width:720px){
+    .techstack{
+        grid-template-columns: auto auto;
+
+    }
+    .tech-block{
+        height: 100px;
+    width: 100px;
+    }
+ }

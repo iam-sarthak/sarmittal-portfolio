@@ -76,3 +76,21 @@ font-size: xx-large;
     color: #e1e1e1;
 
 }
+
+@media (max-width:720px){
+    .hero{
+        flex-direction: column-reverse;
+        padding:0px 20px;
+        gap: 20px;
+    }
+    .left-hero h1{
+        font-size: 70px;
+    }
+    .right-hero img {
+        height: 250px;
+
+    }
+    .right-hero{
+        align-items: start;
+    }
+}

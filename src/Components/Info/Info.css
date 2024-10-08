@@ -84,3 +84,9 @@
 .infolinks ul div{
     margin-top: 5px;
 }
+
+@media(max-width:720px){
+   .info{
+    width: 90%;
+   }
+}

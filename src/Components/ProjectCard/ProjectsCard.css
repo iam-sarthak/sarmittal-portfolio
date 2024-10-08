@@ -54,3 +54,9 @@ box-shadow: -1px 1px 31px -22px #e1e1e1;
     font-size:x-small;
     text-wrap: nowrap;
 }
+
+@media(max-width:720px){
+    .projectcard{
+     width: 90%;
+    }
+ }

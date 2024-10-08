@@ -21,7 +21,17 @@
     color: #e1e1e1;
     font-family: "Urbanist", sans-serif;
 }
-.feature-projects .viewmore{
+.feature-projects .viewmore a{
     color: #e1e1e1;
-
+    text-decoration: none;
 }
+.feature-projects .viewmore a:hover{
+    color: #02d866;
+    text-decoration: none;
+}
+@media(max-width:720px){
+    .projects-data{
+        grid-template-columns: 1fr;
+
+    }
+ }

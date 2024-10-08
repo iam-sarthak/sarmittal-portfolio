@@ -29,3 +29,16 @@
 .space{
     height: 10px;
 }
+
+@media(max-width:720px){
+    .contact-email{
+        font-size: 100%;
+
+    }
+    .contact{
+        width: 90%;
+    }
+    .form input, textarea {
+        width: 100%;
+    }
+ }
