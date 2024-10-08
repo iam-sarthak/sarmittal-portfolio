@@ -11,3 +11,13 @@
   padding-bottom: 100px;
   gap: 30px;
 }
+
+@media(max-width:720px){
+  .project-list{
+    display: flex;
+    flex-direction: column;
+}
+.ProjectsPage{
+  width: 90%;
+}
+}
