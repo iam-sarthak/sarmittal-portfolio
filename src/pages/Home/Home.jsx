@@ -23,7 +23,7 @@ const Home = () => {
       {/* <Projects/> */}
       <TechStack/>
       <Contact/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
