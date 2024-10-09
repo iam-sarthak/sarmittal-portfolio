@@ -9,7 +9,7 @@
     width: 100%;
     background-color: #cccccc00;
     padding: 0px 60px;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 40px;
 }
 .left-hero{
