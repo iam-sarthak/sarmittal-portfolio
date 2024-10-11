@@ -88,7 +88,7 @@ export const education = [
       "Led and organized various college events and activities as the overall student coordinator, enhancing leadership and teamwork skills.",
       "Actively explored and experimented with different coding technologies, building a strong foundation in programming.",
     ],
-    links: [{ linkname: "collage website", linkurl: "https://thapar.edu/" }],
+    links: [{ linkname: "college website", linkurl: "https://thapar.edu/" }],
   },
   {
     Imagewebsite: "https://www.mmumullana.org/",
@@ -102,7 +102,7 @@ export const education = [
       "Expanded my knowledge in essential computer science topics, including software development, algorithms, and system design.",
     ],
     links: [
-      { linkname: "collage website", linkurl: "https://www.mmumullana.org/" },
+      { linkname: "college website", linkurl: "https://www.mmumullana.org/" },
     ],
   },
 ];
